@@ -74,3 +74,14 @@ a {
 .active {
   color: #005bb3;
 }
+
+.navItems {
+  display: flex;
+  list-style-type: none;
+}
+
+.navItems li {
+  padding-right: 1rem;
+}
+
+

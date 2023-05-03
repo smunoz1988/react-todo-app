@@ -9,7 +9,7 @@ const links = [
 const Navbar = () => {
     return (
         <nav className="navbar">
-          <ul>
+          <ul className="navItems">
             {links.map((link) => {
               return (
                 <li key={link.text}>
